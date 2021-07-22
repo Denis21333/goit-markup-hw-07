@@ -1,6 +1,11 @@
+// Utils
 @import './utils/variables';
-@import './base/common';
 @import './utils/hidden';
+// Base
+@import './base/common';
+// Components
+@import './components/logo';
+@import './components/page-navigation';
 @import './components/header';
 @import './components/hero';
 @import './components/features';
@@ -8,11 +13,9 @@
 @import './components/team-section';
 @import './components/regular-section';
 @import './components/footer';
-@import './components/portfolio';
 @import './components/email-footer';
 @import './components/.modal';
-
-
+@import './components/portfolio';
 
 
 

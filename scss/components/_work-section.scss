@@ -1,4 +1,4 @@
-.section-title {
+.work__section_title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -7,18 +7,18 @@
     color: var(--secondary-text-color);
     }
     
-    .work-list{
+    .work__list{
       display: flex;
       align-items: center;
     
     }
     
-    .work-section{
+    .work__section{
      padding-top:47px;
      padding-bottom: 94px;
     }
     
-    .work-div{
+    .work__div{
       position: relative;
 
       &:not(:last-child){
@@ -29,7 +29,7 @@
     
     
     
-    .work-information{
+    .work__information{
     position: absolute;
     padding:27px  ;
     top: 225px;

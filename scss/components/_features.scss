@@ -1,4 +1,4 @@
-.title-features{
+.features__title{
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -7,23 +7,23 @@
     color:var(--secondary-text-color);
     }
     
-    .features-list{
+    .features__list{
       display: flex;
       justify-content: space-between;
       
     }
     
     
-    .features-item:not(:last-child){
+    .features__item:not(:last-child){
       margin-right: 30px;
     }
     
-    .section-features{
+    .features__section{
       padding-top: 94px;
       padding-bottom: 47px;
     }
     
-    .features-paragraph{
+    .features__paragraph{
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
@@ -31,7 +31,7 @@
     }
     
     
-    .svg-features {
+    .features__svg{
       display: flex;
       justify-content: center;
       align-items: center;

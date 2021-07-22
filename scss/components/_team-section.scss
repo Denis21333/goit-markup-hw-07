@@ -1,10 +1,10 @@
-.team-section{
+.team__section{
     padding-top: 94px;
     padding-bottom: 94px;
     background-color:  var(--primary-bg-color-filter);
     }
     
-    .title {
+    .team__name_title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -12,7 +12,7 @@
     color: var(--secondary-text-color);
     }
     
-    .profession{
+    .team__profession{
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.18;
@@ -21,7 +21,7 @@
     
     }  
     
-    .section-team-title{
+    .team__section_title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -30,13 +30,13 @@
     }
     
     
-    .team-list{
+    .team__list{
       display: flex;
       align-items: center;
     }
     
     
-    .team-title{
+    .team__title{
       border-radius: 0px 0px 4px 4px;
       background-color: #ffffff;
       margin-right:30px ;
@@ -44,11 +44,11 @@
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     }
     
-    .name-profession{
+    .team__name{
      margin:30px ;
     }
     
-    .link-icon-inst {
+    .team__link_icon {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -66,7 +66,7 @@
       }
     }
     
-    .icon-div{
+    .team__icon{
       display: flex;
       justify-content: space-between;
       margin-top: 16px;
